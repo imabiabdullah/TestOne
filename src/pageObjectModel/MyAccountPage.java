@@ -54,4 +54,9 @@ public class MyAccountPage {
 		return Sitemap;
 	}
 
+	public WebElement getSitemaps () {
+		WebElement Sitemaps = driver.findElement(By.linkText("Sitemap"));
+		return Sitemaps;
+	}
+
 }
